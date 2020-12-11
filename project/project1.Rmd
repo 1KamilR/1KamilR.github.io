@@ -1,7 +1,7 @@
 ---
 title: 'Project 1: Exploratory Data Analysis'
 author: "SDS348"
-date: "`r format(Sys.Date(), '%B %d, %Y')`"
+hidedate: "`r format(Sys.Date(), '%B %d, %Y')`"
 output:
   html_document: 
     toc: yes

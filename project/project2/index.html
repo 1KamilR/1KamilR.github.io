@@ -57,14 +57,6 @@
             <strong><a href="/project/project2/">Project 2: Modeling, Testing, and Predicting</a></strong>
           </h3>
         </div>
- 
-<div class="blog-title">
-          <h4>
-         January 1, 0001 
-            &nbsp;&nbsp;
-            
-          </h4>
-        </div>
 
         <div class="panel panel-default">
           <div class="panel-body">
@@ -232,7 +224,7 @@ summarize(SSB=sum((mean-groupmean)^2))%&gt;%summarize(sum(SSB))%&gt;%pull
 {hist(Fs,prob = T); abline(v=obs_F, col=&quot;blue&quot;, add=T)}</code></pre>
 <p><img src="/project/project2_files/figure-html/Randomization%20Test-1.png" width="768" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>mean(Fs&gt;obs_F)</code></pre>
-<pre><code>## [1] 0.0484</code></pre>
+<pre><code>## [1] 0.0504</code></pre>
 <p>Here we calculated an F statistic: <em>Null Hypothesis</em>:The centroid as well as the dispersion of the groups as defined by the measured space are equivalent for population share, tv audience share, and gdp weighted share. <em>Alternative Hypothesis</em>: The centroid and/or the spread of the objects is different between the population share, tv audience share, and gdp weighted share. <em>Results</em>: The p value is .0504 which is slighty greater than the alpha value of .05, which mean we fail to reject the null hypothesis. This means that the values should be equivalent for population share, tv audience share, and gdp weighted share.</p>
 </div>
 <div id="linear-regression-model" class="section level1">
@@ -363,7 +355,7 @@ freedom
 
 samp_distn%&gt;%t%&gt;%as.data.frame%&gt;%summarize_all(sd)</code></pre>
 <pre><code>##   (Intercept)   TVAud_c PopShare_c TVAud_c:PopShare_c
-## 1     0.12909 0.2976308  0.3853424          0.1418718</code></pre>
+## 1   0.1277768 0.3066178   0.398668          0.1381767</code></pre>
 <p>When SE tends to increase, the t value decreased which causes the p value to increase. By interpreting, one can see that the bootstrapped SE for the intercept is greater than both the original and robust SE values. This in turn means that the t value for it is less and as a result this causes the p value to be larger for the intercept. The bootstrapped SEs for the TVAud_c are greater than the original, but less than the robust SEs, meaning that when compared to the t and p values of the original SEs, the bootstrapped t values will be less, while the p values will be larger. In comparison with the robust SEs t and p values, the bootstrapped values will be greater and the p values will be lesser. Both the PopShare_c and the PopShare_c:HeartRate_c, values are greater than the original SEs and the Robust, meaning that the t value for it is less and as a result this causes the p value to be larger for these SEs.</p>
 </div>
 <div id="logistic-regression" class="section level1">

@@ -8,21 +8,21 @@
     <language>en-US</language>
     <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>R and Phyton</title>
-      <link>/post/2020/12/10/r-and-phyton/</link>
-      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2020/12/10/r-and-phyton/</guid>
-      <description>##Reticulate Introduction Reticulate is an effective tool as allows you to write code chunks in multiple languages and have these code chunks be able to communicate with one another. The list of languages that can be used with this feature are indicated below.</description>
-    </item>
-    
-    <item>
       <title>The Eyes of Texas</title>
       <link>/post/2020/12/10/the-eyes-of-texas/</link>
       <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020/12/10/the-eyes-of-texas/</guid>
       <description>The Eyes of Texas Imagine everything that you do on campus is monetized, often without your consent, from social media posts to playing the sport you love. Now imagine walking to Darrell K. Royal Stadium on Saturdays past a fountain named after a man who fought to enslave your people. The same university that profits from you, doesn&#39;t even respect you. This is every Black student athlete&#39;s experience while walking past Littlefield Fountain, a monument named after a Confederate general who fought to keep slavery in America.</description>
+    </item>
+    
+    <item>
+      <title>Thanks with R and Python</title>
+      <link>/post/2020/12/09/thanks-with-r-and-python/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020/12/09/thanks-with-r-and-python/</guid>
+      <description>Reticulate is an effective tool as it allows you to write code chunks in multiple languages and have these code chunks be able to communicate with one another. It makes doing simple tasks easier like for say writing Thank you notes. If you have ever seen Jimmy Fallon write his thank you notes, here is my Python and R studio version of Thank you notes through Python and R.</description>
     </item>
     
   </channel>
